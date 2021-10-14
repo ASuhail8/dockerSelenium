@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="29695" started-at="2021-10-14T06:38:22 GMT" finished-at="2021-10-14T06:38:52 GMT">
+    <groups>
+    </groups>
+    <test name="search-test-java" duration-ms="9166" started-at="2021-10-14T06:38:22 GMT" finished-at="2021-10-14T06:38:31 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@5622fdf]" name="setupDriver" is-config="true" duration-ms="4599" started-at="2021-10-14T06:38:22 GMT" finished-at="2021-10-14T06:38:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@5622fdf]" name="search" duration-ms="3914" started-at="2021-10-14T06:38:27 GMT" finished-at="2021-10-14T06:38:31 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.searchmodule.tests.SearchTest@5622fdf]" name="tearDown" is-config="true" duration-ms="589" started-at="2021-10-14T06:38:31 GMT" finished-at="2021-10-14T06:38:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-java -->
+    <test name="search-test-webdriver" duration-ms="6765" started-at="2021-10-14T06:38:31 GMT" finished-at="2021-10-14T06:38:38 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@59494225]" name="setupDriver" is-config="true" duration-ms="2602" started-at="2021-10-14T06:38:31 GMT" finished-at="2021-10-14T06:38:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@59494225]" name="search" duration-ms="3488" started-at="2021-10-14T06:38:34 GMT" finished-at="2021-10-14T06:38:38 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.searchmodule.tests.SearchTest@59494225]" name="tearDown" is-config="true" duration-ms="671" started-at="2021-10-14T06:38:38 GMT" finished-at="2021-10-14T06:38:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-webdriver -->
+    <test name="search-test-docker" duration-ms="6707" started-at="2021-10-14T06:38:38 GMT" finished-at="2021-10-14T06:38:45 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@13805618]" name="setupDriver" is-config="true" duration-ms="2698" started-at="2021-10-14T06:38:38 GMT" finished-at="2021-10-14T06:38:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@13805618]" name="search" duration-ms="3305" started-at="2021-10-14T06:38:41 GMT" finished-at="2021-10-14T06:38:44 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.searchmodule.tests.SearchTest@13805618]" name="tearDown" is-config="true" duration-ms="699" started-at="2021-10-14T06:38:44 GMT" finished-at="2021-10-14T06:38:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-docker -->
+    <test name="search-test-kubernetes" duration-ms="6924" started-at="2021-10-14T06:38:45 GMT" finished-at="2021-10-14T06:38:52 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@ff5b51f]" name="setupDriver" is-config="true" duration-ms="2778" started-at="2021-10-14T06:38:45 GMT" finished-at="2021-10-14T06:38:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@ff5b51f]" name="search" duration-ms="3487" started-at="2021-10-14T06:38:48 GMT" finished-at="2021-10-14T06:38:51 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.searchmodule.tests.SearchTest@ff5b51f]" name="tearDown" is-config="true" duration-ms="656" started-at="2021-10-14T06:38:51 GMT" finished-at="2021-10-14T06:38:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-kubernetes -->
+  </suite> <!-- search-module -->
+</testng-results>
