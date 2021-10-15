@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                bat "docker build -t='asuhail8/sel-doc' ."
+                bat "docker build -t=asuhail8/sel-doc ."
             }
         }
         stage('Push Image') {
